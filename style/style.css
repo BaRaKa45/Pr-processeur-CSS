@@ -29,8 +29,9 @@ body,h2,a{
 }
 
 h1{
-    font-family: titlen;
-    font-size:4vw;
+    font-family: textn;
+    font-size:3vw;
+    margin: 20px;
 }
 
 h2{
@@ -436,4 +437,15 @@ footer ul{
 .container-footer-logo {
     display: flex;
     justify-content: center;
+}
+
+.container-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.ring {
+    min-height:500px;
 }
